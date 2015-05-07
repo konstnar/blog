@@ -1,0 +1,58 @@
+body {
+    font-size: 62.5%; //1em == 10px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+
+p {
+    font-size: 1.6em;
+}
+
+
+.container {
+    width: 900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main_header__title {
+    text-decoration: none;
+    color: grey;
+}
+
+.article_preview {
+    padding: 10px;
+}
+
+
+.article-form label, input, textarea {
+    display: block;
+    width: 75%;
+    max-width: 75%;
+    margin: 10px 0;
+}
+
+
+.article-form__input {
+    height: 25px;
+}
+
+.article-form__submit {
+    width: 200px;
+    height: 30px;
+}
